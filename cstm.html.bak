@@ -1,0 +1,1743 @@
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src=" https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+
+  <nav class="nav main-logo-nav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <a class="nav-link navbar-brand" href="#">
+                        <img src="logo.jpeg" alt="Main Logo" class="img-fluid">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="programme-features-sticky">
+        
+        <div class="navbar-bg-color">
+            <nav class="desktop-navbar">
+                <ul>
+                    <!-- <li><a href="#programme-overview">Overview</a></li> -->
+                    <!-- <li><a href="#industry-trends">Industry Trends</a></li> -->
+                    <li><a href="#programme-highlights">Highlights</a></li>
+                    <li><a href="#testimonials">Testimonial</a></li>
+                    <li><a href="#programme-modules">Modules</a></li>
+                    <!-- <li><a href="#career-services">Career Services</a></li> -->
+                    <li><a href="#participant-profile">Participant Profile</a></li>
+                    <li><a href="#trainer">Trainer</a></li>
+                    <li><a href="#certificate">Certificate</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section><!-- end of programme features section -->
+
+
+ <section class="main-banner">
+        <div class="banner-overlay">
+            <div class="container-fluid">
+                <div class="row main-banner-row">
+
+                    <div class="col-lg-8">
+
+                        <span class="banner-tagline">
+                            <!-- <span class="small-tagline"></span> -->
+                            <span class="main-tagline">Cybersecurity Threat Management</span>
+                            <span class="sub-tagline-text"></span>
+                            <div class="row banner-btn-row">
+                                <div class="col-12">
+                                    <!-- <a href="" class="btn btn-default banner-btn" onclick="trackEvent('click','DMA LP','Pop Up','Alumni Benefits');" data-toggle="modal" data-target="#myModalAlumniStatus">garranto</a> -->
+                                </div>
+                            </div><!-- end of row -->
+                        </span>
+
+                    </div><!-- end of col -->
+
+                    <div class="col-12 d-block d-lg-none p-0">
+                        <img src="banner.jpg" alt="Main Banner mob" class="img-fluid">
+                    </div>
+
+                    <!-- <div class="filter-screen"></div> -->
+					<div class="col-lg-4 main-form-col fordesktopform" id="apply-now">
+                        <!-- <div class="text-right fixed-close-box mt-2">
+                            <a class="btnClose fixed-close-btn" id="btnClose2"><i class="fa fa-times"></i></a>
+                        </div> -->
+                        <div class="card form-custom no-margin">
+                                                            <span class="form-head">Get Course Info</span>
+                                                            
+                            <form id="frm" class="xl-form" method="post">
+                
+                                <!-- <div class="row no-gutters"> -->
+                                        <!-- <div class="col-sm-6 col-lg-12 col-xl-6 pr-lg-1"> -->
+                                            <!-- <div class="form-group"> -->
+                                                <!-- <input type="text" id="first_name" name="first_name" autocomplete="off"> -->
+                                                <!-- <label for="first_name" placeholder="First Name"></label> -->
+                                                <!-- <span class="error-text"></span> -->
+                                            <!-- </div> -->
+                                        <!-- </div><!-- end of col --> 
+                                        <!-- <div class="col-sm-6 col-lg-12 col-xl-6 pr-lg-1"> -->
+                                            <!-- <div class="form-group"> -->
+                                                <!-- <input type="text" id="last_name" name="last_name" autocomplete="off"> -->
+                                                <!-- <label for="last_name" placeholder="Last Name"></label> -->
+                                                <!-- <span class="error-text"></span> -->
+                                            <!-- </div> -->
+                                        <!-- </div><!-- end of col --> 
+                                <!-- </div> <!-- end of row -->  
+								 <div class="form-group">
+                                    <input type="text" id="name" name="name" autocomplete="off">
+                                    <label for="name" placeholder="full name as per nric"></label>
+                                    <span class="error-text"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="nric" name="nric" autocomplete="off">
+                                    <label for="NRIC" placeholder="last 4 characters of your NRIC"></label>
+                                    <span class="error-text"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="email" name="email" aria-describedby="emailHelp" autocomplete="off">
+                                    <label for="email" placeholder="Email"></label>
+                                    <span class="error-text"></span>
+                                </div>
+
+                               <!-- <div class="form-group select-icon">
+                                    <label class="select-label" for="country" placeholder="Country/Region" alt="Country/Region"></label>
+                                    <select id="country" name="country" class="custom-select selHolder selOption">
+									<option value="" disabled="" selected="">Country/Region</option>
+                                       												<option value="India" data-code="+65 "  data-gdpr="0" selected="selected">singapore</option>
+					                                    </select>
+                                    <span class="error-text"></span>
+                                </div>-->
+
+                               <div class="form-group mobile-form-group notEmpty">
+                                    <input type="text" id="mobile" name="mobile" autocomplete="off" value="+65 ">
+                                    <label for="mobile" placeholder="Phone No."></label>
+                                    <span class="error-text"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" id="company" name="company" autocomplete="off">
+                                    <label for="company" placeholder="Company Name"></label>
+                                    <span class="error-text"></span>
+                                </div> 
+
+                                <!-- <div class="form-group select-icon">
+                                    <label class="select-label" for="qualification" placeholder="Qualification" alt="Qualification"></label>
+                                    <select name="qualification" id="qualification" class="custom-select selHolder">
+                                        <option value="" disabled="" selected="">Qualification</option>
+                                        <option value="Diploma">Diploma</option>
+                                        <option value="Graduate">Graduate</option>
+                                        <option value="Post Graduate">Post Graduate</option>
+                                        <option value="PhD.">PhD.</option>
+                                    </select>
+                                    <span class="error-text"></span>
+                                </div> -->
+
+
+                              <!--  <div class="form-group select-icon">
+                                    <label class="select-label" for="workexp" placeholder="Work Experience" alt="Work Experience"></label>
+                                    <select id="workexp" name="workexp" class="custom-select selHolder">
+                                        <option value="" disabled="" selected="">Work Experience</option>
+                                                                                                <option value="1"><1 Year</option>
+                                                                                                <option value="2">1-5 Years</option>
+                                                                                                <option value="3">6-10 Years</option>
+                                                                                                <option value="4">11-15 Years</option>
+                                                                                                <option value="5">16-20 Years</option>
+                                                                                                <option value="6">20+ Years</option>
+                                                                                </select>
+                                    <span class="error-text"></span>
+
+                                </div> -->
+								
+                             <!--   <div class="form-group">
+                                    <input type="text" id="city" name="city" autocomplete="off">
+                                    <label for="city" placeholder="City"></label>
+                                    <span class="error-text"></span>
+                                </div> -->
+
+
+                                <label class="inline-checkbox pl-0" id="gdpr-consent">
+                                    <input type="checkbox" name="agree" id="agree" value="Yes I Agree" style="display:none;">
+                                    <p class="allow-text">By clicking the button below, you agree to receive communications via Email/Call/WhatsApp from Garranto & Ibf about this programme and other relevant programmes. <a href='' target='_blank' class='privacy'>Privacy Policy</a></p>
+                                </label>
+
+                                <input type="hidden" name="referrerEmail" value="">
+                                <input type="hidden" name="utm_source" value="">
+                                <input type="hidden" name="utm_medium" value="">
+                                <input type="hidden" name="utm_term" value="">
+                                <input type="hidden" name="utm_content" value="">
+                                <input type="hidden" name="utm_campaign" value="direct">
+                                <input type="hidden" name="matchtype" value="">
+                                <input type="hidden" name="network" value="">
+                                <input type="hidden" name="creative" value="">
+                                <input type="hidden" name="keyword" value="">
+                                <input type="hidden" name="placement" value="">
+                                <input type="hidden" name="random" value="">
+                                <input type="hidden" name="copy" value="">
+                                <input type="hidden" name="adposition" value="">
+
+                                <div class="clearfix d-sm-block d-lg-none"></div>
+                                <span class="d-block">
+                                    <!--<button type="submit" class="btn btn-default main-form-button">DOWNLOAD BROCHURE</button>-->
+									<a href="/da_uploads/C24_2105280045_Blockchain-for-Fintech-Leaders-and-Practitioners-C.pdf" target="_blank" type="submit" class="btn btn-default main-form-button">Submit</a>
+
+                                </span>
+
+
+
+                            </form>
+                        </div>
+                    </div><!-- end of col -->
+
+
+                </div><!-- end of main banner row -->
+            </div><!-- end of main banner cont-->
+        </div><!-- end of overlay -->
+   
+  
+  
+   </section><!-- end of main banner section -->
+   
+   
+   
+   <section class="programme-features">
+        <div class="container-fluid">
+            <div class="row programme-features-row">
+                <div class="col d-flex flex-wrap">
+                    <div class="feature-wrapper no-pl-0">
+                        <div class="media">
+                            <img src="images/start-icon.png" class="mr-3" alt="">
+                            <div class="media-body">
+                                <span class="head-text">clases ON</span>
+                                <span class="main-text">11 & 12 JUNE, 2022</span>
+                                <!-- <span class="head-text pt-3">APPLICATION DEADLINE</span>
+                                <span class="main-text">March 8, 2022</span> -->
+                                <span class="small-text mt-2"><em>Enrollment Deadline: June 10, 2022</em></span>
+
+                            </div>
+                        </div>
+                    </div><!-- end of wrapper -->
+
+                    <div class="feature-wrapper-seperator">
+                        <span class="seperator"></span>
+                    </div>
+
+                    <div class="feature-wrapper">
+                        <div class="media">
+                            <img src="images/duration-icon.png" class="mr-3" alt="">
+                            <div class="media-body">
+                                <span class="head-text">DURATION</span>
+                                <span class="main-text">2 days</span>
+                                <span class="main-text">Online</span>
+                                <span class="small-text">(Total hours-16)</span>
+
+
+
+                            </div>
+                        </div>
+
+                    </div><!-- end of wrapper -->
+
+                    <div class="feature-wrapper-seperator">
+                        <span class="seperator"></span>
+                    </div>
+
+                    <div class="feature-wrapper no-pl-0">
+                        <div class="media">
+                            <img src="images/fee-icon.png" class="mr-3" alt="">
+                            <div class="media-body">
+                                <span class="head-text">PROGRAMME FEE</span>
+                                <span class="main-text d-block strikeout">sg$ 2250 + GST</span>
+                                <span class="main-text d-block">sg$ 2025 + GST <small class="d-block">(Valid till June 7, 2022 only)</small></span>
+                                <!-- <span class="small-text"><a href="#" onclick="trackEvent('click','DMA LP','Pop Up','Payment Plan');" data-toggle="modal" data-target="#myModal">View Payment Plan</a></span> -->
+
+                                <!-- <span class="small-text mt-2"><i class="fa fa-info-circle"></i><a href="#" onclick="trackEvent('click','DMA LP','Pop Up','Special Corporate Enrolment');" data-toggle="modal" data-target="#myModal2">Annual Enrolment Pricing</a></span> -->
+
+                            </div>
+                        </div>
+
+                    </div><!-- end of wrapper -->
+
+                    <div class="feature-wrapper-seperator">
+                        <span class="seperator"></span>
+                    </div>
+
+                    <div class="feature-wrapper experience-box">
+                        <div class="media">
+                            <img src="images/eligiblity-icon.png" class="mr-3" alt="">
+                            <div class="media-body">
+                                <span class="head-text">ELIGIBILITY</span>
+                                <span class="experience-text">Basic understanding of blockchain.</span>
+								
+
+                            </div>
+                        </div>
+
+                    </div><!-- end of wrapper -->
+
+
+                </div><!-- end of col -->
+            </div><!-- end of row -->
+        </div><!-- end of cont -->
+    </section><!-- end of programme features section -->
+	
+   
+   
+   
+    <section class="content-section industry-trends-section" id="industry-trends">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 mb-3">
+                    <h2 class="main-head">
+                        Industry Trends
+                    </h2>
+                </div>
+            </div><!-- end of row -->
+
+            <div class="row">
+                <div class="col-12">
+
+                    <div class="industry-trends-row align-items-center">
+                        <div class="industry-trends-block text-center d-flex align-items-center h-100 justify-content-center">
+                            <div class="industry-trends-body">
+                                <p class="text-uppercase">Cybersecurity Threat Management</p>
+                                <span class="industry-trends_amount_2">29.5% CAGR</span>
+                                <img src="images/digital-advertising-market-icon.png" alt="Digital Advertising Market" class="img-fluid">
+								<span class="industry-trends_content">Expected to reach spends of Rs. 35,809 crore by 2023</span>
+                                <div class="stat-source">SOURCE: BUSINESS INSIDER 2022</div>
+                            </div>
+                        </div>
+                        <div class="industry-trends-block text-center d-flex align-items-center h-100 justify-content-center">
+                            <div class="industry-trends-body">
+                                <p class="text-uppercase">Senior Cybersecurity Threat Management  Annual Salary</p>
+                                <span class="industry-trends_amount_2"><!--&#8377;-->$60,000</span>
+                                <span class="industry-trends_content">Average</span>
+                                <span class="industry-trends_amount_2"><!--&#8377;--></span>
+                                <span class="industry-trends_content">Range</span>
+                                <span class="source-text">SOURCE: GLASSDOOR 2022</span>
+                            </div>
+                        </div>
+                        <div class="industry-trends-block text-center d-flex align-items-center h-100 justify-content-center">
+                                <div class="industry-trends-body">
+                                    <span class="industry-trends_amount_2">35000+</span>
+                                    <p>Cybersecurity Threat Management roles available in Singapore</p>
+                                    <span class="source-text">SOURCE: LINKEDIN 2022</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- end of col -->
+            </div><!-- end of row -->
+
+        </div><!-- end of cont -->
+    </section>
+
+    <section class="content-section section-wbg">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 mb-3">
+                    <h2 class="main-head">
+                        Why Garranto?
+                    </h2>
+                </div>
+            </div><!-- end of row -->
+
+            <div class="row">
+                <div class="col-12 pt-2 text-center">
+                    <div class="stat-num">
+                        <ul class="d-flex flex-wrap">
+                            <li class="border-stat mb-md-4">
+                                <h4>#1</h4>
+								<p>Research Ranking in sigapore</p>
+                                <!-- <div class="stat-source"></div> -->
+                            </li>
+                            <li class="border-stat mb-md-4">
+                                <h4>49k+</h4>
+								<p>Executive Network</p>
+
+                            </li>
+                            <li>
+                                <h4>#4</h4>
+								<p>B-School in Asia</p>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div><!-- end of col -->
+            </div><!-- end of row -->
+
+        </div><!-- end of cont -->
+    </section><!-- end of overview section -->
+
+   
+   
+   
+   
+                    
+ <section class="content-section" id="programme-highlights">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 mb-3">
+                    <h2 class="main-head">
+                        Programme Highlights
+                    </h2>
+                </div>
+            </div><!-- end of row -->
+
+            <div class="row highlights-sm-row">
+                <div class="highlight-block text-center d-flex align-items-center h-100 justify-content-center">
+                    <div class="media-learn">
+                        <span class="pro-high-numbers">Online</span>
+                        <!-- <span class="pro-high-icon1"></span> -->
+                        <div class="media-body">
+                            <p>Session with experienced faculty</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="highlight-block text-center d-flex align-items-center h-100 justify-content-center">
+                    <div class="media-learn">
+                        <span class="pro-high-numbers"></span>
+                        <!-- <span class="pro-high-icon2"></span> -->
+                        <div class="media-body">
+                            <p>Quizzes & Assignments</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="highlight-block text-center d-flex align-items-center h-100 justify-content-center">
+                    <div class="media-learn">
+                        <span class="pro-high-numbers">11+</span>
+                        <!-- <span class="pro-high-icon3"></span> -->
+                        <div class="media-body">
+                            <p>Real world case studies</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="highlight-block text-center d-flex align-items-center h-100 justify-content-center">
+                    <div class="media-learn">
+                        <span class="pro-high-numbers"></span>
+                        <!-- <span class="pro-high-icon4"></span> -->
+                        <div class="media-body">
+                            <p>Discussion Boards</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="highlight-block text-center d-flex align-items-center h-100 justify-content-center">
+                    <div class="media-learn">
+                        <span class="pro-high-numbers"></span>
+                        <!-- <span class="pro-high-icon5"></span> -->
+                        <div class="media-body">
+                            <p>Group discussion</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="highlight-block text-center d-flex align-items-center h-100 justify-content-center">
+                    <div class="media-learn">
+                        <span class="pro-high-numbers"></span>
+                        <!-- <span class="pro-high-icon6"></span> -->
+                        <div class="media-body">
+                            <p>Simulations</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- end of row -->
+
+            <div class="row text-center mt-5">
+                <div class="col-12 mb-3">
+                    <h2 class="main-head">
+                        Other Certifications
+                    </h2>
+                </div>
+            </div><!-- end of row -->
+
+            <div class="row certificate_offered text-center mb-4 align-items-center"> 
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <div class='certificate_offered_block'>
+                      <a href="https://academy.garranto.com/Cybersecurity-Threat-Management-Schedule/23">  <img src="cstm.jpg" class="img-fluid"></a>
+                        <p class="">Cybersecurity Threat Management</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                     <div class='certificate_offered_block'>
+                      <a href="https://academy.garranto.com/SAFE-SCRUM-MASTER-with-certified-SAFe-Scrum-Master-Schedule/4">  <img src="safe.jpg" class="img-fluid"></a>
+                        <p class="">SAFe Scrum Master With Certified SAFe Scrum Master</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class='certificate_offered_block'>
+                       <a href="https://academy.garranto.com/Human-Centered-Design-for-FinTech-and-Digital-banking--Schedule/26">   <img src="hcd.jpg" class="img-fluid"></a>
+                        <p class="">Human Centered Design For FinTech And Digital Banking</p>
+                    </div>
+                </div>
+                <!-- <div class="">
+                    <img src="images/tableau-logo.png" class="img-fluid">
+                    <p class="p-2 mt-2">Beginner and Advanced Levels</p>
+                </div>
+                <div class="">
+                    <img src="images/hubspot.png" class="img-fluid">
+                    <p class="p-2 mt-2">Beginner to advanced level <br> data analysis and visualization</p>
+                </div> -->
+            </div>
+
+            <div class="row highlights-sm-row-2 mt-5">
+                <div class="highlight-block text-center d-flex align-items-center h-100 justify-content-center">
+                    <div class="media-learn">
+                        <span class="pro-high-numbers">100+</span>
+                        <!-- <span class="pro-high-icon1"></span> -->
+                        <div class="media-body">
+                            <p>Lessons</p>
+                        </div>
+                    </div>
+                </div><!-- end of col -->
+                <div class="highlight-block text-center d-flex align-items-center h-100 justify-content-center">
+                    <div class="media-learn">
+                        <span class="pro-high-numbers">23+ <small>hours</small></span>
+                        <!-- <span class="pro-high-icon2"></span> -->
+                        <div class="media-body">
+                            <p>Assignments</p>
+                        </div>
+                    </div>
+                </div><!-- end of col -->
+                <div class="highlight-block text-center d-flex align-items-center h-100 justify-content-center">
+                    <div class="media-learn">
+                        <span class="pro-high-numbers">49</span>
+                        <!-- <span class="pro-high-icon3"></span> -->
+                        <div class="media-body">
+                            <p>Quizzes</p>
+                        </div>
+                    </div>
+                </div><!-- end of col -->
+                <div class="highlight-block text-center d-flex align-items-center h-100 justify-content-center">
+                    <div class="media-learn">
+                        <span class="pro-high-numbers">7.5 <small>hours</small></span>
+                        <!-- <span class="pro-high-icon3"></span> -->
+                        <div class="media-body">
+                            <p>Assessments</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- end of row -->
+
+            <div class="row">
+                <div class="col-12 objective-text-col mt-4">
+                  <!--  <p class="text-note">Note: <br>
+                        - All product and company names are trademarks or registered trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.<br>
+                        - The final number of quizzes, assignments and discussions will be confirmed closer to the programme start. <br>- *Assignments are graded either by industry practitioners who are available to support participants in their learning journey and/or by the Garranto grading team.</p> -->
+                </div><!-- end of col -->
+            </div><!-- end of row -->
+
+            <!-- <div class="row know-more-btn-row"> -->
+                <!-- <div class="col-12 text-center"> -->
+                    <!-- <a href="" onclick="trackEvent('click','ABA LP','ScrollUp','Download Brochure');" class="btn btn-default know-more-btn go-top-btn">DOWNLOAD BROCHURE</a> -->
+                <!-- </div><!-- end of col --> 
+            <!-- </div><!-- end of row --> 
+
+
+        </div><!-- end of cont -->
+    </section><!-- end of highlights section -->
+	
+	
+	    <section class="content-section section-wbg switch-bg-grey" id="learning-outcomes">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="main-head">
+                        Key Programme Takeaways
+                    </h2>
+                </div>
+            </div><!-- end of row -->
+
+            <div class="row">
+                <div class="col-12 objective-text-col col-md-8 offset-md-2">
+
+                    <div class="media align-items-center pb-4 pt-2">
+                        <img src="arrow.png" class="mr-3" alt="" height="30px" width="30px">
+                        <div class="media-body">
+                         <span class="takeaways-small-text">  Understanding the Cyber Security & Information Security concepts </span>
+                        </div>
+                    </div>
+                    <div class="media align-items-center pb-4">
+                        <img src="arrow.png" class="mr-3" alt="" height="30px" width="30px">
+                        <div class="media-body">
+                            <span class="takeaways-small-text"> Understanding the Cyber Threats.</span>
+                        </div>
+                    </div>
+					
+                    <div class="media align-items-center pb-4">
+                        <img src="arrow.png" class="mr-3" alt="" height="30px" width="30px">
+                        <div class="media-body">
+                            <span class="takeaways-small-text">Understanding Cyber Security Management frameworks</span>
+                        </div>
+                    </div>
+                    <span class="d-none d-md-block" id="outcomes_extra">
+                    <div class="media align-items-center pb-4">
+                        <img src="arrow.png" class="mr-3" alt="" height="30px" width="30px">
+                        <div class="media-body">
+                            <span class="takeaways-small-text">Managing the Cyber Security Risks – Governance, Risk, Compliance.</span>
+                        </div>
+                    </div>
+                     <div class="media align-items-center pb-4">
+                        <img src="arrow.png" class="mr-3" alt="" height="30px" width="30px">
+                        <div class="media-body">
+                            <span class="takeaways-small-text">Prepare for Cyber Security Professional Certification programs</span>
+                        </div>
+                    </div>
+                    </span>
+
+                    <!-- <ul class="custom-bullets">
+
+                        <li>Increase ROI, customer lifetime value and firm profitability aligned with business goals</li>
+                        <li>Plan and implement search engine and social media campaigns in simulated environments</li>
+                        <li>Leverage insights from the digital marketing funnel to reach customers and enhance engagement</li>
+                        <span class="d-none d-md-block" id="outcomes_extra">
+                        <li>Maximise reach, engagement and conversions with optimised paid campaigns</li>
+                        <li>Measure, analyse and optimise campaigns using in-demand metrics and best practices</li>
+                        <li>Build frameworks for the successful planning and execution of campaign strategies</li>
+                        </span>
+
+                    </ul> -->
+
+                </div><!-- end of col -->
+
+                <div class="col-12 d-block d-md-none text-right">
+                    <span class="more-less" id="show_more">More</span>
+                    <span class="more-less d-none" id="show_less">Less</span>
+                </div>
+
+            </div><!-- end of row -->
+
+            <!-- <div class="row know-more-btn-row d-none d-lg-block"> -->
+                <!-- <div class="col-12 text-center"> -->
+                    <!-- <a href="" onclick="trackEvent('click','DMA LP','ScrollUp','Download Brochure');" class="btn btn-default know-more-btn go-top-btn">DOWNLOAD BROCHURE</a> -->
+                <!-- </div><!-- end of col --> 
+            <!-- </div><!-- end of row -->  
+
+
+        </div><!-- end of cont -->
+    </section><!-- end of programme objective section -->
+	
+	<section id="programme-modules">
+	
+<button class="accordion">M O D U L E 1
+</button>
+<div class="panel">
+  <div class="row">
+
+                                        <div class="col-12">
+                                            <div class="topics_list">
+                                                <ul class="custom-bullets">
+                                                  <li> Introduction to Information Security</li>
+												  <li>Threats that were Real</li>
+												  <li>Understanding Cyber Eco System</li>
+												  <li>Emerging Trends –Cyber Risks</li>
+												  <li>Security & Risk Management</li>
+												  <li>Protection of Information Assets</li>
+												  <li>Data Protection & Privacy Principles</li>
+												  <li>Identity & Access Control Management</li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- end of col -->
+
+                                    </div>
+</div>
+
+<button class="accordion">M O D U L E 2
+</button>
+<div class="panel">
+  <div class="row">
+
+                                        <div class="col-12">
+                                            <div class="topics_list">
+                                                <ul class="custom-bullets">
+                                          <li>   Software Development Life Cycle –Security Considerations</li>
+										   <li> Enterprise Security Architecture</li>
+										  <li> Threat Intelligence, Threat Hunting & Threat Monitoring</li>
+										  <li> Communication & Network Security</li>
+										  <li> Security Assessment & Testing</li>
+										  <li> Operational Resilience</li>
+										  <li> Security Incident Management</li>
+										  <li> Security Operations</li>
+										  <li> Cyber Security Strategy Development</li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- end of col -->
+
+                                    </div>
+</div>
+<!--
+<button class="accordion">M O D U L E 3</button>
+<div class="panel">
+  <div class="row">
+
+                                        <div class="col-12">
+                                            <div class="topics_list">
+                                                <ul class="custom-bullets">
+                                                    <li>Generate the Genesis block</li>
+													   <li>Create Channel and Join participants</li>
+													   <li> Deploy Custom Chaincode</li>
+													   <li> Understand the Fabric CA</li>
+													   <li> Install and understand Fabric Client API in
+													Node.js</li>
+													   <li> Setup Fabric CA with HLF network</li>
+													   <li>Generate Crypto certificates using Fabric CA</li>
+													   <li>Understand the Private Data in HLF</li>
+													   <li> Understand Fabric SDK (Node.js)</li>
+													   <li>Write and understand Admin enrolment and user
+													registration using Fabric CA and SDK</li>
+													   <li> Write Node.js APIs for Invoke and query
+													transactions</li>
+												</ul>
+                                            </div>
+                                        </div>/*end of col */
+
+                                    </div>
+</div>
+
+<button class="accordion">M O D U L E 4</button>
+<div class="panel">
+  <div class="row">
+
+                                        <div class="col-12">
+                                            <div class="topics_list">
+                                                <ul class="custom-bullets">
+                                                    <li>Identifying and Scoping of a business use case for Blockchain Implementation.</li>
+                                                    <li>Choosing a technology Stack & Governance Strategy for Blockchain transformation</li>
+                                                    <li>Design thinking approach and considerations for Blockchain projects.</li>
+													<li>Capstone project -Formulating Blockchain strategy and solution for use case of interest.</li>
+                                                </ul>
+                                            </div>
+                                        </div>/*end of col */
+
+                                    </div>
+</div>
+-->
+
+
+</section>
+
+
+
+	<section class="content-section section-wbg">
+        <div class="container">
+											<div class="row text-center">
+												<div class="col-12 mb-3">
+													<h2 class="main-head">
+														Who is this Programme for?
+													</h2>
+												</div>
+											</div><!-- end of row -->
+
+              <div class="row"> 
+			  
+			  
+                <!-- <div class="col-12 objective-text-col">
+                    <p>With a keen focus on analytics-based digital marketing, this high-impact programme will make you adept at effectively improving the ROI for campaigns, if you are:</p>
+
+                    <ul class="custom-bullets mt-4">
+                        <li>Early-stage marketing and sales professional looking to upgrade your skills in digital marketing for high-growth career prospects</li>
+                        <li>Mid-to senior managers interested in learning integrated digital marketing strategies and best practices to boost reach, conversions and ROI</li>
+                        <li>Consultants who want to understand in-demand digital marketing tools and platforms to develop competitive strategies for their clients</li>
+                        <li>Entrepreneurs and business owners seeking to understand how digital marketing strategies can improve marketing outcomes and lead to business expansion</li>
+                    </ul>
+
+                </div> -->
+
+                <!-- <div class="col-12 col-md-4 mb-4 mb-4">
+                    <figure class="text-center">
+                        <img src="images/isb-dms-who-pro-1.jpg" alt="Who is this Programme for image" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-4">
+                    <figure class="text-center">
+                        <img src="images/isb-dms-who-pro-2.jpg" alt="Who is this Programme for image" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-4">
+                    <figure class="text-center">
+                        <img src="images/isb-dms-who-pro-3.jpg" alt="Who is this Programme for image" class="img-fluid">
+                    </figure>
+                </div> -->
+
+                <div class="col-12 col-md-4 mb-4 mb-4">
+                    <div class="who-programme-box">
+                            <h5 class="who-programme-name">Fintech</h5>
+                            <p class="who-programme-data">Managers will learn how Blockchain helps in FinTech with its distributed, decentralized, transparent and immutable digital ledger technology, providing a new type of freedom and security.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-4">
+                    <div class="who-programme-box">
+                            <h5 class="who-programme-name">Banking & Financial</h5>
+                            <p class="who-programme-data">Persons involved in Banking and financial sector will learn how a blockchain network can track payments, accounts, and more.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-4">
+                    <div class="who-programme-box">
+                            <h5 class="who-programme-name">Other Industries</h5>
+                            <p class="who-programme-data">Developers, business managers, project managers, business analysts, industry consultants will get a true picture of the technology and use it for transformational projects.</p>
+                    </div>
+                </div>
+            </div>
+
+
+       </div><!-- end of cont -->
+    </section><!-- end of overview section -->
+	
+	
+	<!-- <section > -->
+
+<!-- <h1 align="center">participants profile</h1> -->
+<!-- <div class="pie"> -->
+<!-- <span><div id="piechart"></div></span> -->
+<!-- <span><div>li</div></span> -->
+
+<!-- </div> -->
+<!-- </section> -->
+ <section class="content-section graph-section section-wbg" id="participant-profile">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 mb-3">
+                    <h2 class="main-head">
+                        Participant Profile
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- <div class="col-12 col-sm-6 offset-sm-3 text-center">
+                    <span class="graph-head">Work Experience</span>
+                    <figure class="graph">
+                        <img src="images/past-participant-isb-dma-experience.png" alt="Past Participant Experience" class="img-fluid">
+                    </figure>
+                </div> -->
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mt-2 mt-md-4">
+                    <!-- <span class="graph-head">Work Experience</span> -->
+					 
+                     <div  id="piechart"></div>
+				
+                    <!-- <ul class="custom-bullets">
+                        <li>Accenture</li>
+                        <li>IBM</li>
+                        <li>Salesforce</li>
+                        <li>Standard Chartered Bank</li>
+                        <li>Tata Power</li>
+                        <li>Viacom18</li>
+                    </ul> -->
+
+                    
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mt-4">
+                    <span class="graph-head">Top Industries</span>
+
+                    <ul class="custom-bullets">
+                        <li>Banking and Finance</li>
+                        <li>Consulting</li>
+                        <li>E-commerce</li>
+                        <span class="d-none d-lg-block" id="outcomes_extra_4">
+                        <li>FMCG</li>
+                        <li>IT Services</li>
+                        <li>Others*</li>
+                        </span>
+                    </ul>
+
+                    <div class="row">
+                        <div class="col-12 d-block d-lg-none text-right">
+                            <span class="more-less" id="show_more_network_4" onClick="more(4)">More</span>
+                            <span class="more-less" id="show_less_network_4" onClick="less(4)">Less</span>
+                        </div>
+                    </div>
+
+                    <p class="graph-note">
+                        <em>*Others include Energy, Healthcare, Infrastructure, Manufacturing, Retail and Telecommunications among others.</em>
+                    </p>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mt-md-4">
+                    <span class="graph-head">Top Functions</span>
+
+                    <ul class="custom-bullets">
+                        <li>Consulting</li>
+                        <li>Customer Service</li>
+                        <li>General Management</li>
+                        <span class="d-none d-lg-block" id="outcomes_extra_5">
+                        <li>Marketing/ Sales</li>
+                        <li>Operations</li>
+                        <li>Others*</li>
+                        </span>
+                    </ul>
+
+                    <div class="row">
+                        <div class="col-12 d-block d-lg-none text-right">
+                            <span class="more-less" id="show_more_network_5" onClick="more(5)">More</span>
+                            <span class="more-less" id="show_less_network_5" onClick="less(5)">Less</span>
+                        </div>
+                    </div>
+
+                    <p class="graph-note">
+                        <em>*Others include Engineering, Finance/ Accounting, and Information Technology among others.</em>
+                    </p>
+
+                </div>
+
+
+
+            </div><!-- end of row -->
+
+
+        </div>
+    </section>
+
+<section id="trainer"> <h2 align="center">TRAINER</h2>
+ <div class="slick-slider">
+  <div class="elements element-1">
+				 <div class="carousel-item active">
+							  <img class="rounded-circle shadow-1-strong mb-4"
+								src="aravind.jpg" alt="avatar"
+								style="width: 150px;" />
+							  <div class="row d-flex justify-content-center">
+								<div class="col-lg-8">
+								  <h5 class="mb-3">Chandran Subramaniam</h5>
+								  <p><b>SECURITY, IT RISK, GOVERNANCE & COMPLIANCE</b></p>
+								  <!-- <p class="text-muted"> -->
+									<!-- <i class="fas fa-quote-left pe-2"></i> -->
+									<h6>
+									More than three decades of experience in Banking Industry, IT Software and Big 4 Consultancy covering India & Middle East regions.<br>
+ Ex-CISO, Head of Cyber Security & IT Risk Management, Governance, Compliance, Security Operations Centre (SOC), Fraud Risks, Principal Consultant Big 4 , Bank Branch Manager, Head of Information System Audit, ISO ISMS Auditor & EU GDPR Practitioner.<br>
+ Qualified & experienced Trainer, strategic thinker for Cyber Security Management, IT Governance, Risk, Compliance, Data Privacy & Security domains across all verticals.<br>
+ Imparted regular trainings & lectures covering CISA, CISSP, CEH, CGEIT, CISM, CRISC, CCSK, CAMS exams, ISO ISMS, IT SMS, Internal Controls, Risk Management, Digital Banking, Payments & Settlement Systems, Performing System Audits, CAAT ACL Tool, Secure SDLC, Anti Money Laundering, Financial Frauds, 3rd Party Risk Management, Cyber Risk Management for FinTech, EU GDPR Data Privacy & Security, Communication & Network Security, BCP/DRP, Cyber Security essentials for IT / OT / DevOps /Blockchain/IoT/Mobile/Cloud Computing environments in line with NIST CSF/SANS CIS/CSA/COBIT/NCIIPC/NESA IA/SWIFT CSCF/OWASP Top 10/PCI DSS/ISA/IEC 62443/ ISO ISMS 27000/MITRE ATT&CK frameworks.<br>
+ A postgraduate in Science, Chandran has done CAIIB, C|CISO, CISA, CISM, CGEIT, CISSP, CEH, CCSK, CAMS, CIA, CNA, EU GDPR Practitioner, ISO ISMS Auditor, & ITIL certifications
+								  </h6>
+								</div>
+							  </div>
+						</div>
+			  
+  
+  
+  </div>
+  <!-- <div class="element element-2"> -->
+  
+  
+			<!-- <div class="carousel-item active"> -->
+				  <!-- <img class="rounded-circle shadow-1-strong mb-4" -->
+					<!-- src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" -->
+					<!-- style="width: 150px;" /> -->
+				  <!-- <div class="row d-flex justify-content-center"> -->
+					<!-- <div class="col-lg-8"> -->
+					  <!-- <h5 class="mb-3">Maria Kate</h5> -->
+					  <!-- <p>Photographer</p> -->
+					  <!-- <p class="text-muted"> -->
+						<!-- <i class="fas fa-quote-left pe-2"></i> -->
+						<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti -->
+						<!-- nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia -->
+						<!-- fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit -->
+						<!-- doloremque. -->
+					  <!-- </p> -->
+					<!-- </div> -->
+				  <!-- </div> -->
+			<!-- </div> -->
+  
+  
+  <!-- </div> -->
+  
+
+</div>
+
+</section>
+
+	
+<section class="content-section certificate-section" id="certificate">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="main-head">
+                                Programme Certificate
+                            </h2>
+                        </div>
+                        <div class="col-12 mt-2 mt-md-0">
+                            <p class="certificate_info">
+                            Upon successfully completing the programme with a minimum 70% score, you will be awarded a certificate in Cybersecurity Threat Management from Garranto Academy.
+                            </p>
+
+                        </div><!-- end of col -->
+                    </div><!-- end of row -->
+
+                </div>
+                <div class="col-12 col-md-4">
+                    <figure class="certificate d-none d-md-block">
+                        <a href="#" onclick="trackEvent('click','DMA LP','Pop Up','Certificate Popup');" data-toggle="modal" data-target="#myModalCertImage"><img src="certificate1.jpg" alt="Sample Certificate" class="img-fluid"></a>
+                    </figure>
+                    <figure class="certificate d-block d-md-none">
+                        <img src="certificate1.jpg" alt="Sample Certificate" class="img-fluid">
+                    </figure>
+                </div>
+
+            </div><!-- end of row -->
+
+            <div class="row pt-2">
+
+                <div class="col-12">
+                    <p class="certificate-sub-text">
+                        <em>All certificate images are for illustrative purposes only and may be subject to change at the discretion of garranto academy.</em>
+                    </p>
+                </div>
+
+            </div><!-- end of row -->
+
+        </div><!-- end of certificate container -->
+    </section><!-- end of certificate section -->
+	<div class="modal fade" id="myModalCertImage">
+    <div class="modal-dialog modal-dialog-centered isb-modal-dialog">
+        <div class="modal-content modal-content-cert">
+
+            <!-- Modal body -->
+            <div class="modal-body isb-modal-body">
+                <button type="button" class="close isb-pop-close-btn" data-dismiss="modal">×</button>
+                <div class="flexi-content text-center">
+                    <img src="certificate1.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="application-section">
+        <div class="app-overlay pt-5 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="early_app_title">
+                            Early applications encouraged. 
+                        </h2>
+                        <h5 class="early_app_sub_title">
+                          ENROLL NOW <a href="#" onclick="trackEvent('click','DMA LP','Pop Up','Payment Plan');" data-toggle="modal" data-target="#myModal"></a>
+                        </h5>
+                        <h5 class="early_app_sub_title">
+                          To get 10% off   <a href="#" onclick="trackEvent('click','DMA LP','Pop Up','Loan Offered');" data-toggle="modal" data-target="#myModal3"></a>
+                        </h5>
+                        <h5 class="early_app_sub_title">
+                            <a href="#" onclick="trackEvent('click','DMA LP','Pop Up','Special Corporate Enrolment');" data-toggle="modal" data-target="#myModal2"></a>
+                        </h5>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="early_app_round_title mt-4">
+                                    Application Deadline <small>Last Date: June 10, 2022.</small>
+                                </h2>
+                            </div>
+                        </div>
+                    </div><!-- end of col -->
+
+                    <div class="col-12">
+                        <div class="app-deadline-main-wrapper pb-3">
+                            <div class="row">
+                                <div class="col-12 text-center">
+                                    <a href="https://academy.garranto.com/Enroll/Training?sid=174&v=3" onclick="trackEvent('click','DMA LP','Redirect','Start Application Now');" target="_blank" class="btn btn-default apply-now-btn mt-1">START APPLICATION NOW</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div><!-- end of col -->
+
+
+
+                </div><!-- end of row -->
+            </div><!-- end of cont -->
+        </div><!-- end of app-overlay -->
+    </section> <!-- end of application section -->
+<!--
+<section id="testimonials"><h2 align= "center">Testimonials</h2>
+ <div class="slick-slider2 " id="slider-2">
+   
+  <div class="elemen element-1">
+				 <div class="carousel-item active">
+							  <img class="rounded-circle shadow-1-strong mb-4"
+								src="https://garranto.com/wp-content/uploads/2020/05/Alok-Mathur-150x150.jpeg" alt="avatar"
+								style="width: 150px;" />
+							  <div class="row d-flex justify-content-center">
+								<div class="col-lg-8">
+								  <h5 class="mb-3">Alok Mathur</h5>
+								  <<em><strong>Chief Business Officer, Consumer Electronics, India</strong></em><br/>
+									
+									&nbsp;<br/>
+								
+									Recently I came across Garranto through a Executive search call received from Sreeman.<br/>
+									<br/>
+									He was well-versed on CXO role and employer industry, business model, executive team, etc…<br/>
+									<br/>
+									He provided clear and reliable insight, direction and guidance along with the information that I needed<br/>
+									<br/>
+									so that I could make an educated decision regarding the employer. I highly recommend Sreeman and Garranto.
+
+								</div>
+							  </div>
+						</div>
+  </div>
+  <div class="element element-2">
+
+  
+			<div class="carousel-item active">
+				  <img class="rounded-circle shadow-1-strong mb-4"
+					src="https://garranto.com/wp-content/uploads/2020/05/Sanjeev-Dayal-150x150.jpeg" alt="avatar"
+					style="width: 150px;" />
+				  <div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+					  <h5 class="mb-3">Sanjeev Dayal</h5>
+					<em><strong>MD &amp; CEO at GAMLE Appliances, India</strong></em><br/>
+						
+						&nbsp;<br/>
+						
+						Sreeman Mannamu is a very positive Person and I have found him very honest to his job and<br/>
+						<br/>
+						one who believes in lot of detailing. He is a rare talent and he’s extremely persuasive.<br/>
+						<br/>
+						I have worked with him in the past and have found him to be the best in business.<br/>
+						<br/>
+						Not many placement consultants can work with such honesty and sincerity as what Mannamu does. Best Wishes.
+
+					</div>
+				  </div>
+			</div>
+ </div>
+ 
+		<div class="element element-3">
+
+  
+			<div class="carousel-item active">
+				  <img class="rounded-circle shadow-1-strong mb-4"
+					src="https://garranto.com/wp-content/uploads/2020/05/Kant-Mohan-150x150.jpeg" alt="avatar"
+					style="width: 150px;" />
+				  <div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+					  <h5 class="mb-3">Kant Mohan</h5>
+					<em><strong>Chief Executive Officer at Charmion, India</strong></em><br/>
+
+&nbsp;<br/>
+
+Sreeman Mannamu, belongs, to that rare and unique group of HR professionals,<br/>
+<br/>
+who add a humane touch to recruitment process, which otherwise is very commercial, both in spirit n actions.<br/>
+<br/>
+My interactions with him, have always been, cordial, helpful and very personalized.<br/>
+<br/>
+He is like a 24×7 PR Manager, to, all those professionals, seeking good employment opportunities, in the Asian sub continent.
+					</div>
+				  </div>
+			</div>
+ </div> 
+ 
+ <div class="element element-4">
+
+  
+			<div class="carousel-item active">
+				  <img class="rounded-circle shadow-1-strong mb-4"
+					src="https://garranto.com/wp-content/uploads/2019/08/wwsh-150x150.jpg" alt="avatar"
+					style="width: 150px;" />
+				  <div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+					  <h5 class="mb-3">Prof. Dr. Wolfgang Wagner</h5>
+					<em><strong>VP YADE International Consulting, Beijing CEO Hongkong PMX Project Management</strong></em>
+
+&nbsp;<br/>
+
+Garranto is a long awaited platform for HR and Strategy Professionals in South East Asia.<br/>
+<br/>
+The disruptions in the beginning of 2020 call urgently for an access to well trained international professionals across<br/>
+<br/>
+the national borders in SE Asia and in future also China and Korea.<br/>
+<br/>
+Garranto and their leader Sreeman stand for exceptional professional service exactly in this area of activity.<br/>
+
+My best wishes to a great success and thanks for creating this platform for us.
+					</div>
+				  </div>
+			</div>
+ </div>
+ 
+ <div class="element element-5">
+
+  
+			<div class="carousel-item active">
+				  <img class="rounded-circle shadow-1-strong mb-4"
+					src="https://garranto.com/wp-content/uploads/2020/05/Hari-Krishna-150x150.jpeg"alt="avatar"
+					style="width: 150px;" />
+				  <div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+					  <h5 class="mb-3">Hari Krishna</h5>
+					<em><strong>Future Banker &amp; Lean-Agile Coach , Singapore</strong></em><br/>
+<br/>
+&nbsp;<br/>
+<br/>
+Garranto is one of the best emerging platform to meet the needs of companies in emerging markets.<br/>
+<br/>
+Enabler for organization to find a talent pool and helping to build high performing teams to<br/>
+<br/>
+provide remarkable customer experience and growth hacking.
+					</div>
+				  </div>
+			</div>
+ </div>
+ 
+ <div class="element element-6">
+
+  
+			<div class="carousel-item active">
+				  <img class="rounded-circle shadow-1-strong mb-4"
+					src="https://garranto.com/wp-content/uploads/2020/05/Kofi3-150x150.png" alt="avatar"
+					style="width: 150px;" />
+				  <div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+					  <h5 class="mb-3">Siegfried Kofi Gbadago</h5>
+					<em><strong>CFO and Acting CEO, Hayman Microfinance, Myanmar</strong></em><br/>
+
+&nbsp;<br/>
+
+Garranto is a professional human capital platform across many sectors and geographical locations.<br/>
+<br/>
+I found them particularly helpful when I needed to hire middle level accounting and finance staffs.<br/>
+<br/>
+A great value was brought on board which assist us in identifying the best candidates for the positions.<br/>
+<br/>
+They are highly recommended for any establishment seeking professional services.
+					</div>
+				  </div>
+			</div>
+ </div>
+ 
+ <div class="element element-7">
+
+  
+			<div class="carousel-item active">
+				  <img class="rounded-circle shadow-1-strong mb-4"
+					src="https://garranto.com/wp-content/uploads/2020/05/Suni_pic-150x150.png" alt="avatar"
+					style="width: 150px;" />
+				  <div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+					  <h5 class="mb-3">Suni.B</h5>
+					<em><strong>Global Youth Leadership 2019 &amp; ASEAN Youth Leadership Awards Winner, Myanmar</strong></em><br/>
+<br/>
+&nbsp;<br/>
+<br/>
+Garranto Employment Agency has been real helpful for me in finding suitable career opportunity.<br/>
+<br/>
+The team took extra mile to reach out to me and kept me informed. I would like to recommend anyone looking for<br/>
+<br/>
+further employment opportunities in the future to reach to them. My best wishes to the team.
+					</div>
+				  </div>
+			</div>
+ </div>
+   
+ <div class="element element-8">
+
+  
+			<div class="carousel-item active">
+				  <img class="rounded-circle shadow-1-strong mb-4"
+					src="https://garranto.com/wp-content/uploads/2020/06/Subhankar-Banerjee-150x150.jpeg" alt="avatar"
+					style="width: 150px;" />
+				  <div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+					  <h5 class="mb-3">Subhankar Banerjee</h5>
+					<em><strong>AGM Sales, Toshiba, India</strong></em><br/>
+<br/>
+As a professional I have came across with many PLACEMENT agency and many career consultant<br/>
+<br/>
+but among all I would always say Mr.Sreeman Mannamu is exceptionally best among all for his "outside the box thinking".<br/>
+<br/>
+This is why because he always starts with understanding the profile and match the profile expectation with companies expectation,<br/>
+<br/>
+which is something I have never seen in any consultant. My best wishes to Sreeman Mannamu and Garranto.
+					</div>
+				  </div>
+			</div>
+ </div>
+   
+ <div class="element element-9">
+
+  
+			<div class="carousel-item active">
+				  <img class="rounded-circle shadow-1-strong mb-4"
+					src="https://garranto.com/wp-content/uploads/2020/06/Apratim-Das-150x150.jpeg" alt="avatar"
+					style="width: 150px;" />
+				  <div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+					  <h5 class="mb-3">Apratim Das</h5>
+					<<strong><em>General Manager Operations, Orient Electric , India</em></strong><br/>
+<br/>
+&nbsp;<br/>
+<br/>
+Though my interaction with Sreeman Mannamu was purely professional but his personal touch in all the matters impressed me immensely.<br/>
+<br/>
+He is a through professional in his own area with a very strong positive attitude. Wish him all success.
+					</div>
+				  </div>
+			</div>
+ </div>
+   
+ <div class="element element-10">
+
+  
+			<div class="carousel-item active">
+				  <img class="rounded-circle shadow-1-strong mb-4"
+					src="https://garranto.com/wp-content/uploads/2020/07/Sanjay-150x150.jpg" alt="avatar"
+					style="width: 150px;" />
+				  <div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+					  <h5 class="mb-3">Sanjay Mishra</h5>
+					<em><strong>Asst Vice President - Sales &amp; Distribution at Reliance Jio, India</strong></em>
+
+&nbsp;<br/>
+
+Sreeman Mannamu is the one finest Consultant I have ever met ,<br/>
+<br/>
+Sreeman so generously shared his expertise and experience with me, and I truly appreciate the support and<br/>
+<br/>
+the networking contacts you have given me.I believe that, because of your assistance, I am better prepared Now.<br/>
+<br/>
+I truly appreciate your expertise and experience .<br/>
+<br/>
+All the best for Garranto
+					</div>
+				  </div>
+			</div>
+ </div>
+ 
+  <div class="element element-11">
+
+  
+			<div class="carousel-item active">
+				  <img class="rounded-circle shadow-1-strong mb-4"
+					src="https://garranto.com/wp-content/uploads/2020/08/WhatsApp-Image-2020-08-11-at-10.09.00-AM-150x150.jpeg" alt="avatar"
+					style="width: 150px;" />
+				  <div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+					  <h5 class="mb-3">Tin Zar Win</h5>
+					<em><strong>Operations Manager, Harley-Davidson, </strong></em><em><strong> Myanmar</strong></em><br/>
+						&nbsp;<br/>
+						<br/>
+						<span class="lt-line-clamp__line">Mr. Mannamu has great experience in his professional firm and</span> <span class="lt-line-clamp__line">also supported his clients and </span><br/>
+						<br/>
+						<span class="lt-line-clamp__line">candidates with his best contribution</span> <span class="lt-line-clamp__line">to grow the direction of purpose. I do really recommend him and </span><br/>
+						<br/>
+						<span class="lt-line-clamp__line">I</span> <span class="lt-line-clamp__line lt-line-clamp__line--last">believe you won't regret to work with him for certain.</span>
+					</div>
+				  </div>
+			</div>
+ </div>
+    
+ <div class="element element-12">
+
+  
+			<div class="carousel-item active">
+				  <img class="rounded-circle shadow-1-strong mb-4"
+					src="https://garranto.com/wp-content/uploads/2020/10/Bulathsinhalage-Dinesh-S-Perera-150x150.jpeg" alt="avatar"
+					style="width: 150px;" />
+				  <div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+					  <h5 class="mb-3">Bulathsinhalage Dinesh S Perera</h5>
+					<em><strong>Chief Operating Officer,  Arpico Finance PLC , Sri Lanka</strong></em><br/>
+
+&nbsp;<br/>
+
+Mr. Sreeman Mannamu is a talented professional in the field of HR Advisory, Executive Search &amp; Coach.<br/>
+<br/>
+I have had the opportunity of working with him on a few assignments in the past and his professional approach,<br/>
+
+commitment and integrity has truly impressed me. Garranto Executive Search had a great presence in Asian Region<br/>
+<br/>
+and is well connected with great talent. I am strongly recommending him to any organization looking for staff augmentation.<br/>
+<br/>
+I wish good luck for Garranto success.
+					</div>
+				  </div>
+			</div>
+ </div>
+    
+ <div class="element element-13">
+
+  
+			<div class="carousel-item active">
+				  <img class="rounded-circle shadow-1-strong mb-4"
+					src="https://garranto.com/wp-content/uploads/2020/10/Chhay-Sokchea-150x150.jpeg" alt="avatar"
+					style="width: 150px;" />
+				  <div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+					  <h5 class="mb-3">Chhay Sokchea</h5>
+				<em><strong>AMK Microfinance Plc, Cambodia</strong></em><br/>
+<br/>
+&nbsp;<br/>
+<br/>
+Mannamu is an amazing executive coach and mentor for senior leaders.<br/>
+<br/>
+He helps to fine-tune strategic and leadership skills to face the Board.His exposure on Digital Financial Inclusion,<br/>
+<br/>
+Micro Finance is fabulous.I would strongly recommend Garranto would best executive search for next senior leadership roles.
+					</div>
+				  </div>
+			</div>
+ </div>
+ 
+ <div class="element element-14">
+
+  
+			<div class="carousel-item active">
+				  <img class="rounded-circle shadow-1-strong mb-4"
+					src="https://garranto.com/wp-content/uploads/2020/10/Ivanio-Werdoyo-150x150.jpeg" alt="avatar"
+					style="width: 150px;" />
+				  <div class="row d-flex justify-content-center">
+					<div class="col-lg-8">
+					  <h5 class="mb-3">Ivanio Werdoyo</h5>
+				<em><strong>Management Consultant , Indonesia</strong></em><br/>
+
+&nbsp;<br/>
+
+Mr. Sreeman Mannamu is an extraordinary individual. I thoroughly having a great time in constructive<br/>
+<br/>
+discussions with Sreeman, and clearly that Sreeman provides an outstanding services in executive search, recruitment advisor,<br/>
+<br/>
+and also as a consultant in HR Transformation. Without a doubt I would recommend Garranto to companies and professional<br/>
+<br/>
+seeking HR services to enhance organizational improvement and performance.
+					</div>
+				  </div>
+			</div>
+ </div>
+ 
+ <div class="element element-15">
+ 	<div class="carousel-item active">
+ <img class="rounded-square shadow-1-strong mb-4"
+					src="cstm.jpg" alt="avatar"
+					style="" />
+ 
+ </div>
+ </div>
+ 
+ 
+ 
+</div>
+
+
+</section>
+
+
+-->
+
+
+<section id="testimonials"><h2 align= "center">Testimonials</h2>
+ <div class="slick-slider2 " id="slider-2">
+   
+				<div class="elemen element-1">
+				 <div class="carousel-item active">
+				 <figure class="text-center">
+                                <img src="cstm1.png" alt="" class="img-fluid">
+                            </figure>
+				 
+				 </div>
+				 </div>
+				 
+				 <div class="elemen element-2">
+				 <div class="carousel-item active">
+				 <figure class="text-center">
+                                <img src="cstm2.png" alt="" class="img-fluid">
+                            </figure>
+				 
+				 </div>
+				 </div>
+				 <div class="elemen element-3">
+				 <div class="carousel-item active">
+				 <figure class="text-center">
+                                <img src="cstm3.png" alt="" class="img-fluid">
+                            </figure>
+				 
+				 </div>
+				 </div>
+				  <div class="elemen element-4">
+				 <div class="carousel-item active">
+				 <figure class="text-center">
+                                <img src="cstm4.png" alt="" class="img-fluid">
+                            </figure>
+				 
+				 </div>
+				 </div>
+				  <div class="elemen element-5">
+				 <div class="carousel-item active">
+				 <figure class="text-center">
+                                <img src="cstm5.png" alt="" class="img-fluid">
+                            </figure>
+				 
+				 </div>
+				 </div>
+				  <div class="elemen element-6">
+				 <div class="carousel-item active">
+				 <figure class="text-center">
+                                <img src="cstm6.png" alt="" class="img-fluid">
+                            </figure>
+				 
+				 </div>
+				 </div>
+				  <div class="elemen element-7">
+				 <div class="carousel-item active">
+				 <figure class="text-center">
+                                <img src="cstm7.png" alt="" class="img-fluid">
+                            </figure>
+				 
+				 </div>
+				 </div>
+				 </div>
+				 
+ </section>
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+    <section class="content-section text-center eruditus-section pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <figure>
+                        <small class="in-collob">In collaboration with</small>
+                        <a href="https://www.ibf.org.sg/Pages/Home.aspx" target="_blank"><img src="ibf.jpg" alt="Emeritus" class="img-fluid"></a>
+                    </figure>
+                </div>
+            </div><!-- end of row -->
+
+        </div><!-- end of cont -->
+    </section> <!-- end of collab section -->
+
+    <section class="content-section disclaimer-section pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="mb-0">The Institute of Banking and Finance Singapore (IBF) is the national accreditation and certification agency for financial industry competency in Singapore under the Skills Framework for Financial Services, which were developed in partnership with the industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	
+	
+	<section class="sticky-btn-section text-center">
+        <a href="" onclick="trackEvent('click','DMA LP','ScrollUp','Download Brochure');" class="btn btn-default sticky-btn go-top-btn">DOWNLOAD BROCHURE</a>
+        <span class="deadline-text">Application Deadline: June 10, 2022</span>
+    </section>
+
+       
+
+
+
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+   
+<script>
+$(".slick-slider").slick({
+   slidesToShow: 1,
+   infinite:false,
+   slidesToScroll: 1,
+   autoplay: true,
+   autoplaySpeed: 3000,
+   prevArrow:true,
+   nextArrow:true
+     // dots: false, Boolean
+    //arrows: false, Boolean
+  });
+  
+  </script>
+  <script>
+  $(".slick-slider2").slick({
+   slidesToShow: 2,
+   infinite:false,
+   slidesToScroll: 1,
+   autoplay: true,
+   autoplaySpeed: 1000,
+   prevArrow:true,
+   nextArrow:true,
+   dots: false,
+     // dots: false, Boolean
+    //arrows: false, Boolean
+	responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false,
+		arrows: true
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+  });
+
+</script>
+  <script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Task', 'Hours per Day'],
+  ['0-5 years', 6],
+  ['5-10 years', 2],
+  ['10-15 years', 4],
+  ['16-20 years', 2],
+  ['20+ years', 8]
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'work experience', 'width':300, 'height':400};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+            if (scroll >= 200) {
+                $(".programme-features-sticky").slideDown(300);
+            } else {
+                $(".programme-features-sticky").slideUp(300);
+            }
+        });
+
+    });
+
+    $(document).ready(function () {
+
+        $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+            if (scroll >= 200) {
+                $(".top-navbar-menu").slideDown(300);
+
+            } else {
+                $(".top-navbar-menu").slideUp(300);
+            }
+        });
+
+    });
+</script>
+
+<script>
+		$(document).ready(function () {
+            $("#show_less").hide();
+			$("#show_more").click(function (e) {
+                e.preventDefault();
+
+                $("#outcomes_extra").removeClass("d-none");
+                $("#outcomes_extra").hide();
+                $("#outcomes_extra").slideDown(100);
+                $("#show_less").removeClass("d-none");
+                $("#show_less").show();
+                $(this).hide();
+
+			});
+
+			$("#show_less").click(function (e) {
+                e.preventDefault();
+
+                $("#outcomes_extra").slideUp(100);
+                $(this).hide();
+                $("#show_less").addClass("d-none");
+                $("#show_more").show();
+
+			});
+		});
+
+	</script>
+ <script>
+        function more(i){
+                // alert(1)
+                $("#outcomes_extra_"+i).removeClass("d-none");
+                $("#outcomes_extra_"+i).hide();
+                $("#outcomes_extra_"+i).slideDown(100);
+                $("#show_more_network_"+i).hide();
+                $("#show_less_network_"+i).show();
+                $(this).hide();
+            }
+
+            function less(i){
+                // alert(2)
+                $("#outcomes_extra_"+i).slideUp(100);
+                $(this).hide();
+                $("#show_less_network_"+i).hide();
+                $("#show_more_network_"+i).show();
+            }
+		$(document).ready(function () {
+            $("#show_less_network_1, #show_less_network_2, #show_less_network_3, #show_less_network_4, #show_less_network_5").hide();
+		});
+
+	</script>
+
+</body>
+</html>
